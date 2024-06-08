@@ -1,0 +1,13 @@
+spring:
+  application:
+    name: location-voiture
+  datasource:
+    driver-class-name: org.postgresql.Driver
+    url: jdbc:postgresql://localhost:5432/Location
+    username: postgres
+    password: azer
+  jpa:
+    hibernate:
+      ddl-auto: update
+    database: postgresql
+    database-platform: org.hibernate.dialect.PostgreSQLDialect
